@@ -1,0 +1,41 @@
+@import '../system/_var';
+@import '../system/_font';
+
+.availability__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  margin-top: 37px;
+}
+
+.availability__more {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid $color_red;
+  padding: 0;
+  margin-right: 6px;
+  cursor: pointer;
+  user-select: none;
+
+  font-family: $ToyotaDisplay;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $color_red;
+}
+
+.availability__more_image {
+  width: 19px;
+  height: 10px;
+
+  fill: $color_red;
+}
+
+@media (max-width: 1279px) {
+  .availability__more {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

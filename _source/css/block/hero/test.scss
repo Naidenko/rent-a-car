@@ -1,0 +1,84 @@
+@import '../system/_var';
+@import '../system/_font';
+
+.hero__test-wrap {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+.hero__test {
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid $color_red;
+
+  font-family: $ToyotaDisplay;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $color_red;
+  text-decoration: none;
+  user-select: none;
+
+  &:hover, &:focus {
+    border-bottom: 2px dashed $color_red;
+    cursor: pointer;
+  }
+
+  &:active {
+    border-bottom: 2px dotted $color_red;
+  }
+}
+
+.hero__test_image {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  margin-top: 5px;
+
+  fill: $color_red;
+}
+
+@media (max-width: 1279px) {
+  .hero__test {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .hero__test_image {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    margin-top: 2px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero__test-wrap {
+    justify-content: center;
+  }
+
+  .hero__test {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .hero__test_image {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .hero__test_image {
+    width: 5px;
+    height: 5px;
+    margin-top: -20px;
+    margin-right: 20px;
+  }
+}

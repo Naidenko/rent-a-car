@@ -1,0 +1,31 @@
+@import '../system/_var';
+@import '../system/_font';
+
+.offer__description {
+  margin: 0;
+
+  font-family: $ToyotaText;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: $color_dark;
+}
+
+.offer__description_special {
+  font-weight: bold;
+}
+
+@media (max-width: 1279px) {
+  .offer__description {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer__description {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}

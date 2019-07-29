@@ -1,0 +1,30 @@
+@import '../system/_var';
+@import '../system/_font';
+
+.offer {
+  background-color: #f0f0f0;
+  padding-top: 33px;
+  padding-bottom: 69px;
+}
+
+.offer__wrapp {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1279px) {
+  .offer__wrapp {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .offer__wrapp {
+    max-width: 310px;
+  }
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rent a Car</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#333333">
+</head>
+<body>
+<header class="page-header">
+    <nav class="header-top">
+        <div class="header-top__button header-top_closed">
+            <button class="page-header__toggle" type="button"></button>
+        </div>
+            <ul class="header-top__list list_closed">
+                <li class="header-top__item">
+                    <a class="header-top__link">Corolla</a>
+                </li>
+                <li class="header-top__item">
+                    <a class="header-top__link">Camry</a>
+                </li>
+                <li class="header-top__item">
+                    <a class="header-top__link">RAV4</a>
+                </li>
+                <li class="header-top__item">
+                    <a class="header-top__link">Highlander</a>
+                </li>
+                <li class="header-top__item">
+                    <a class="header-top__link">Land Cruiser Prado</a>
+                </li>
+                <li class="header-top__item">
+                    <a class="header-top__link">Land Cruiser 200</a>
+                </li>
+                <li class="header-top__item">
+                    <a class="header-top__link">Hilux</a>
+                </li>
+                <li class="header-top__item header-top__item_active">
+                    <a class="header-top__link">Fortuner</a>
+                </li>
+                <li class="header-top__item">
+                    <a class="header-top__link">Prius</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__advertising">
+                    <div class="hero__wrap">
+                        <img class="hero__logo" src="img/logo.png" alt="Логотип компании 'Fortuna'" width="237" height="94">
+                        <p class="hero__motto">Ты настоящий</p>
+                    </div>
+                    <img class="hero__offer" src="img/hero-offer.png" alt="Специальное предложение от официального диллера" width="335" height="76">
+                </div>
+                <table>
+                    <tr>
+                        <td class="hero__cell">Кредит в день от <span class="hero__cell-price">304 ₽*</span></td>
+                        <td class="hero__cell">Выгода до <span class="hero__cell-price">365 000 ₽*</span></td>
+                    </tr>
+                    <tr>
+                        <td class="hero__cell">Скидка по trade-in до <span class="hero__cell-price">150 000 ₽*</span></td>
+                        <td class="hero__cell">В подарок <span class="hero__cell-price">3 ТО</span></td>
+                    </tr>
+                    <tr>
+                        <td class="hero__cell hero__cell_long" colspan="2">В подарок <span class="hero__cell-price">Зимние шины</span></td>
+                    </tr>
+                </table>
+                <div class="hero__test-wrap">
+                    <svg viewBox="0 0 24 24" class="hero__test_image" width="24" height="24">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="svg/sprite.svg#test" width="24" height="24"></use>
+                    </svg>
+                    <button class="hero__test open__popup" type="button">Записаться на Тест-драйв</button>
+                </div>
+                <button type="button" class="hero__button open__popup">Получить предложение</button>
+                <br><button class="hero__cheaper open__popup">Нашли дешевле?</button>
+            </div>
+        </section>
+    </header>
+    <main class="page-main">
+        <h1 class="visually-hidden fn org">Fortuner</h1>
+        <section class="advantage">
+            <ul class="advantage__list">
+                <li class="advantage__item">
+                    <h3 class="advantage__title advantage__title_first">Цена, как <br class="advantage__title-br">для сотрудника</h3>
+                    <p class="advantage__description">Отдаем а/м по&nbsp;закрытому прайсу, как для сотрудника ДЦ. Предложение ограничено. Спешите</p>
+                </li>
+                <li class="advantage__item">
+                    <h3 class="advantage__title advantage__title_second">Улучшим предложение</h3>
+                    <p class="advantage__description">Уже получили предложение по&nbsp;цене в&nbsp;другом салоне? Не&nbsp;спешите,&nbsp;&mdash; мы&nbsp;его улучшим!</p>
+                </li>
+                <li class="advantage__item">
+                    <h3 class="advantage__title advantage__title_third">Бронь а/м <br>из поставки</h3>
+                    <p class="advantage__description">Бронируйте лучшие а/м еще до&nbsp;поступления в&nbsp;салон. пока вы&nbsp;думаете&nbsp;&mdash; другие покупают.</p>
+                </li>
+                <li class="advantage__item">
+                    <h3 class="advantage__title advantage__title_fourth">Льготный <br>кредит</h3>
+                    <p class="advantage__description">Оформите кредит на&nbsp;выгодных условиях. Низкие ставки. Нет скрытых платежей.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="availability">
+            <h2 class="availability__title">Автомобили в наличии</h2>
+            <div class="availability__list advantages__list--close">
+                <div class="availability__item">
+                    <img class="availability__image" src="img/availability-image-1.png" alt="Fortuner" width="369" height="211">
+                    <div class="feature">
+                        <div class="feature__wrapper">
+                            <h3 class="feature__title">Fortuner</h3>
+                            <ul class="feature__list">
+                                <li class="feature__item">Год выпуска: 2016</li>
+                                <li class="feature__item">Двигатель: 1,6 МТ (110 л.с.)</li>
+                                <li class="feature__item">КПП: Механическая</li>
+                                <li class="feature__item">Привод: Передний привод</li>
+                                <li class="feature__item">Цвет: Серый металик</li>
+                            </ul>
+                        </div>
+                        <div class="feature__wrapper">
+                            <p class="feature__profit">Выгода до <span class="feature__profit_price">100 500 ₽</span></p>
+                            <p class="feature__profit">В кредит от <span class="feature__profit_price">5 000 ₽/мес</span></p>
+                            <p class="feature__more">Подробнее: <span class="feature__more_tel"><a href="tel:+73512111010">+7(351)211-10-10</a></span></p>
+                            <button class="feature__button open__popup" type="button">Узнать цену</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="availability__item">
+                    <img class="availability__image" src="img/availability-image-1.png" alt="Fortuner" width="369" height="211">
+                    <div class="feature">
+                        <div class="feature__wrapper">
+                            <h3 class="feature__title">Fortuner</h3>
+                            <ul class="feature__list">
+                                <li class="feature__item">Год выпуска: 2016</li>
+                                <li class="feature__item">Двигатель: 1,6 МТ (110 л.с.)</li>
+                                <li class="feature__item">КПП: Механическая</li>
+                                <li class="feature__item">Привод: Передний привод</li>
+                                <li class="feature__item">Цвет: Серый металик</li>
+                            </ul>
+                        </div>
+                        <div class="feature__wrapper">
+                            <p class="feature__profit">Выгода до <span class="feature__profit_price">100 500 ₽</span></p>
+                            <p class="feature__profit">В кредит от <span class="feature__profit_price">5 000 ₽/мес</span></p>
+                            <p class="feature__more">Подробнее: <span class="feature__more_tel tel">+7(351)211-10-10</span></p>
+                            <button class="feature__button open__popup" type="button">Узнать цену</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="availability__item">
+                    <img class="availability__image" src="img/availability-image-1.png" alt="Fortuner" width="369" height="211">
+                    <div class="feature">
+                        <div class="feature__wrapper">
+                            <h3 class="feature__title">Fortuner</h3>
+                            <ul class="feature__list">
+                                <li class="feature__item">Год выпуска: 2016</li>
+                                <li class="feature__item">Двигатель: 1,6 МТ (110 л.с.)</li>
+                                <li class="feature__item">КПП: Механическая</li>
+                                <li class="feature__item">Привод: Передний привод</li>
+                                <li class="feature__item">Цвет: Серый металик</li>
+                            </ul>
+                        </div>
+                        <div class="feature__wrapper">
+                            <p class="feature__profit">Выгода до <span class="feature__profit_price">100 500 ₽</span></p>
+                            <p class="feature__profit">В кредит от <span class="feature__profit_price">5 000 ₽/мес</span></p>
+                            <p class="feature__more">Подробнее: <span class="feature__more_tel">+7(351)211-10-10</span></p>
+                            <button class="feature__button open__popup" type="button">Узнать цену</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="availability__button">
+                <button type="button" class="availability__more">Смотреть ещё
+                    <svg viewBox="0 0 129 129" class="availability__more_image" width="19" height="10">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="svg/sprite.svg#down-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+        </section>
+        <section class="offer">
+            <div class="offer__wrapp">
+                <h2 class="offer__title">Уникальное предложение!</h2>
+                <p class="offer__description">Получите максимально выгодные условия на покупку <span class="offer__description_special">Toyota</span></p>
+                <form class="offer__form">
+                    <input class="offer__input" type="tel" placeholder="Введите номер телефона" tabindex="1"  required>
+                    <button type="submit" class="offer__button" tabindex="2" >Получить предложение</button>
+                </form>
+            </div>
+        </section>
+        <section class="contact">
+            <h2 class="contact__title">Контакты</h2>
+            <div class="contact__map" id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+
+            </div>
+        </section>
+        <section class="info">
+            <div class="info__wrapp">
+                <div class="info__more info__button_closed">
+                    <button class="info__button" type="button">
+                        <svg viewBox="0 0 477.175 477.175" class="info__button-image" width="19" height="10">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="svg/sprite.svg#up-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="info__text-wrap info__text-wrap_opened">
+                    <button class="info__condition" type="button">Условия акции
+                        <svg viewBox="0 0 477.175 477.175" class="info__condition-image" width="19" height="10">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="svg/sprite.svg#up-arrow"></use>
+                        </svg>
+                    </button>
+                    <p class="info__text">*Предложение действует до&nbsp;31.03.18г.</p>
+                    <p class="info__text">Выгода достигается посредством предоставления скидки от&nbsp;максимальной цены перепродажи автомобиля при
+                        передаче автомобиля с&nbsp;пробегом в&nbsp;счет стоимости нового автомобиля, а&nbsp;также скидки при приобретении
+                        автомобиля по&nbsp;всем кредитным программам от&nbsp;АО&nbsp;&laquo;Тойота Банк&raquo;, а&nbsp;так&nbsp;же одновременном страховании по
+                        договору КАСКО в&nbsp;рамках программы Тойота Страхование, организатором которой является ООО &laquo;Тойота
+                        Иншуранс Менеджмент (Страховые брокеры)&raquo; (Лицензия ЦБ&nbsp;РФ&nbsp;СБ&#8470;&nbsp;4339) и&nbsp;скидки дилера зависящей от
+                        комплектации выбранной модели, подарками дополнительным оборудованием, или специальной ценой. Подробнее
+                        в&nbsp;дилерском центре по&nbsp;тел. &mdash;&nbsp;+7(351)2111010&Prime;</p>
+                    <p class="info__text">** Кредит&nbsp;5,5%: Ставка указана по&nbsp;кредитной программе &laquo;Выгодный (новые автомобили) 02_18&raquo; при
+                        первоначальном взносе (ПВ) от&nbsp;70% и&nbsp;сроке кредита (СК) 12&nbsp;мес. Условия кредитования: годовая процентная
+                        ставка при&nbsp;ПВ от&nbsp;70% и&nbsp;СК&nbsp;12&nbsp;мес. &mdash;&nbsp;5,5% годовых, при&nbsp;СК от&nbsp;13&nbsp;до&nbsp;24&nbsp;мес. &mdash;&nbsp;7,5% годовых, при&nbsp;СК от&nbsp;25
+                        до&nbsp;36&nbsp;мес. &mdash;&nbsp;9,5% годовых; при&nbsp;ПВ от&nbsp;40&nbsp;до&nbsp;69,9% и&nbsp;СК&nbsp;12&nbsp;мес. &mdash;&nbsp;5,5% годовых, при&nbsp;СК от&nbsp;13&nbsp;до&nbsp;24&nbsp;мес. &mdash;
+                        8,5% годовых, при&nbsp;СК от&nbsp;25&nbsp;до&nbsp;36&nbsp;мес. &mdash;&nbsp;9,9% годовых. Валюта кредита&nbsp;&mdash; рубли РФ. Минимальная сумма
+                        кредита&nbsp;&mdash; 300&nbsp;000&nbsp;руб. Погашение аннуитетными (равными по&nbsp;сумме ежемесячными) платежами. Обязательная
+                        передача приобретаемого с&nbsp;использованием кредита а/м в&nbsp;залог и&nbsp;страхование по&nbsp;программе КАСКО.
+                        Кредитование осуществляется АО&nbsp;&laquo;Тойота Банк&raquo; в&nbsp;регионах присутствия АО&nbsp;&laquo;Тойота Банк&raquo;. Лицензии Банка
+                        России &#8470;&nbsp;3470. Подробнее на&nbsp;сайте www.toyota-bank.ru или по&nbsp;тел.&nbsp;8&nbsp;800&nbsp;200 08 40. Предложение действует с
+                        01.02.2018.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="page-footer__wrap">
+            <p class="copyright">Официальный дилер Toyota © 2018</p>
+        </div>
+    </footer>
+    <div class="popup__wrap"></div>
+    <div class="popup">
+        <button class="popup__close" type="button">Закрыть</button>
+        <h2 class="popup__title">Заказать оценку автомобиля</h2>
+        <p class="popup__description">Заполните форму ниже, <br>чтобы заказать оценку вашего автомобиля</p>
+        <form class="popup__form">
+            <input type="text" name="name" class="popup__input popup__input-name" placeholder="Имя" tabindex="1" required>
+            <input type="tel" name="tel" class="popup__input popup__input-tel" placeholder="Телефон" tabindex="2" required>
+            <div class="popup__line">
+                <input type="text" name="car" class="popup__input popup__input-car" placeholder="Автомобиль" tabindex="3"  required>
+                <input type="number" name="year" class="popup__input popup__input-year" placeholder="Год" tabindex="4"  required>
+            </div>
+            <button type="submit" class="popup__button" tabindex="5">Заказать оценку</button>
+            <input id="agree" class="popup__checkbox" type="checkbox" name="agree" tabindex="6"  checked required>
+            <label for="agree" class="popup__label">Я согласен с <a href="#" class="popup__link">условиями обработки
+                персональных данных</a>
+            </label>
+        </form>
+    </div>
+    <div class="popup-thank__wrap"></div>
+        <div class="popup-thank">
+            <button class="popup-thank__close" type="button">Закрыть</button>
+            <h2 class="popup-thank__title">Спасибо за обращение</h2>
+            <p class="popup-thank__description">Мы свяжемся с вами в ближайшее время</p>
+        </div>
+    <script src="module/promise_polyfill.min.js"></script>
+    <script src="module/fetch_polyfill.min.js"></script>
+    <script src="js/bundle.min.js"></script>
+    <script src="module/svg4everybody.min.js"></script>
+    <script>svg4everybody(); // run it now or whenever you are ready</script>
+</body>
+</html>

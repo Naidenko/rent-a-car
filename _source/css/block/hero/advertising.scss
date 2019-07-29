@@ -1,0 +1,20 @@
+.hero__advertising {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1279px) {
+  .hero__advertising {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero__advertising {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}

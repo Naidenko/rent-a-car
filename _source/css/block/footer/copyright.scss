@@ -1,0 +1,10 @@
+@import '../system/_var';
+@import '../system/_font';
+
+.copyright {
+  font-family: $ToyotaText;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(51, 51, 51, 0.5);
+}

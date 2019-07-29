@@ -1,0 +1,53 @@
+@import '../system/_var';
+@import '../system/_font';
+
+.feature__button {
+  width: 250px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: $color_red;
+  border: none;
+  border-radius: 25px;
+  box-sizing: border-box;
+
+  font-family: $ToyotaDisplay;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $color_light;
+  cursor: pointer;
+  user-select: none;
+
+  &:hover, &:focus {
+    background-color: $color_light;
+    color: $color_red;
+    box-shadow: inset 0 0 3px 0 $color_red;
+    outline: none;
+  }
+
+  &:active {
+    box-shadow: inset 0 0 9px 0 $color_red;
+    outline: none;
+  }
+}
+
+@media (max-width: 1279px) {
+  .feature__button {
+    width: 180px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .feature__button {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    font-size: 16px;
+  }
+}

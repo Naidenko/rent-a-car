@@ -1,0 +1,1 @@
+.info{background-color:#f0f0f0;padding-top:40px;padding-bottom:21px}.info__wrapp{width:1200px;margin:0 auto}.info__text-wrap_close{height:0;overflow:hidden;transition:all 550ms ease-in-out}.info__text-wrap_opened{height:auto;transition:all 550ms ease-in-out}@media (max-width: 1279px){.info__wrapp{width:700px}}@media (max-width: 767px){.info__wrapp{width:310px}}

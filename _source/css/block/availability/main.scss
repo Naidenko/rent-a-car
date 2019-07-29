@@ -1,0 +1,20 @@
+.availability {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 65px;
+}
+
+@media (max-width: 1279px) {
+  .availability {
+    width: 700px;
+    padding-top: 60px;
+    padding-bottom: 39px;
+  }
+}
+
+@media (max-width: 767px) {
+  .availability {
+    width: 310px;
+  }
+}

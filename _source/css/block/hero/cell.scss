@@ -1,0 +1,77 @@
+@import '../system/_var';
+@import '../system/_font';
+
+.hero__cell {
+  width: 210px;
+  display: inline-block;
+  margin-bottom: 44px;
+  padding: 0;
+  vertical-align: top;
+
+  position: relative;
+
+  font-family: $ToyotaDisplay;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 35px;
+  color: $color_dark;
+  text-transform: uppercase;
+}
+
+.hero__cell_long{
+  width: 380px;
+  margin-bottom: 35px;
+}
+
+.hero__cell-price {
+  display: block;
+
+  font-size: 34px;
+  line-height: 35px;
+}
+
+.hero__cell::before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #999999;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 1279px) {
+  .hero__cell {
+    width: 140px;
+    margin-bottom: 34px;
+
+    font-size: 8px;
+    line-height: 25px;
+  }
+
+  .hero__cell_long{
+    width: 240px;
+    margin-bottom: 25px;
+  }
+
+  .hero__cell-price {
+
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .hero__cell::before {
+    width: 35px;
+    height: 2px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .hero__cell {
+    margin-bottom: 34px;
+
+    font-size: 8px;
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,36 @@
+.availability__list {
+  height: auto;
+  overflow: hidden;
+}
+
+.advantages__list--close {
+  height: 285px;
+}
+
+.availability__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 0;
+  margin-bottom: 20px;
+}
+
+.availability__item:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1279px) {
+  .advantages__list--close {
+    height: 235px;
+  }
+}
+
+@media (max-width: 767px) {
+  .availability__item {
+    flex-direction: column;
+  }
+
+  .advantages__list--close {
+    height: 655px;
+  }
+}

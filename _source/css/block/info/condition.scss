@@ -1,0 +1,54 @@
+@import '../system/_var';
+@import '../system/_font';
+
+.info__condition {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-bottom: 23px;
+
+  font-family: $ToyotaDisplay;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: $color_red;
+  user-select: none;
+
+  &:hover, :focus {
+    border-bottom: 1px dotted $color_red;
+    outline: none;
+    cursor: pointer;
+  }
+
+  &:active {
+    border-bottom: 1px solid $color_red;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+.info__condition-image {
+  fill: $color_red;
+  transform: rotate(-90deg);
+  width: 19px;
+  height: 10px;
+}
+
+@media (max-width: 1279px) {
+  .info__condition {
+    margin-bottom: 23px;
+
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .info__condition {
+    margin-bottom: 23px;
+
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

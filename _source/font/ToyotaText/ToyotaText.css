@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'ToyotaText';
+    src: url('Toyota Text.eot');
+    src: url('Toyota Text.eot?#iefix') format('embedded-opentype'),
+    url('Toyota Text.woff') format('woff'),
+    url('Toyota Text.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ToyotaText';
+    src: url('ToyotaText-Bold.eot');
+    src: url('ToyotaText-Bold.eot?#iefix') format('embedded-opentype'),
+    url('ToyotaText-Bold.woff') format('woff'),
+    url('ToyotaText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

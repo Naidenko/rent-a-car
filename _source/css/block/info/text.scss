@@ -1,0 +1,27 @@
+@import '../system/_var';
+@import '../system/_font';
+
+.info__text {
+  margin: 0;
+  margin-bottom: 27px;
+
+  font-family: $ToyotaText;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: $color_dark;
+}
+
+@media (max-width: 1279px) {
+  .info__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .info__text  {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

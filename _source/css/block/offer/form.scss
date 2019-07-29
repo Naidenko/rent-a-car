@@ -1,0 +1,113 @@
+@import '../system/_var';
+@import '../system/_font';
+
+.offer__form {
+  width: 635px;
+  margin: 0 auto;
+  margin-top: 37px;
+}
+
+.offer__input {
+  width: 460px;
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 25px;
+  box-sizing: border-box;
+
+  font-family: $ToyotaDisplay;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3d3d3d;
+
+  &:hover, &:focus, &:active {
+    outline: none;
+    box-shadow: inset 0 0 3px 0 $color_dark;
+  }
+}
+
+.offer__button {
+  border: none;
+  background-color: $color_red;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: -60px;
+  width: 230px;
+  box-sizing: border-box;
+
+  font-family: $ToyotaDisplay;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $color_light;
+  user-select: none;
+
+  &:hover, &:focus {
+    background-color: $color_light;
+    color: $color_red;
+    box-shadow: inset 0 0 3px 0 $color_red;
+    cursor: pointer;
+    outline: none;
+  }
+
+  &:active {
+    box-shadow: inset 0 0 9px 0 $color_red;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1279px) {
+  .offer__form {
+    width: 490px;
+  }
+
+  .offer__input {
+    width: 330px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .offer__button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: -40px;
+    width: 190px;
+
+    font-size: 12px;
+    line-height: 18px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer__form {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .offer__input {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .offer__button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
